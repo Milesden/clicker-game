@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#7c5cff"/><stop offset="1" stop-color="#00e5ff"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="650" rx="28" fill="#07090f"/><g stroke="#273047" stroke-width="2" opacity=".55"><path d="M0 130h1200M0 260h1200M0 390h1200M0 520h1200"/></g>
+<text x="60" y="65" fill="#f5f7ff" font-family="Arial,sans-serif" font-size="30" font-weight="700">CLICKER — Neon Idle Lab</text>
+<text x="60" y="96" fill="#7f879e" font-family="Arial,sans-serif" font-size="16">Modular vanilla JavaScript architecture</text>
+<g font-family="Arial,sans-serif" font-size="16" fill="#f5f7ff">
+<g filter="url(#glow)"><rect x="70" y="145" width="210" height="80" rx="16" fill="#111522" stroke="url(#g)" stroke-width="2"/><text x="175" y="178" text-anchor="middle">index.html</text><text x="175" y="201" text-anchor="middle" fill="#7f879e">UI shell</text></g>
+<g><rect x="350" y="145" width="210" height="80" rx="16" fill="#111522" stroke="#7c5cff"/><text x="455" y="178" text-anchor="middle">main.js</text><text x="455" y="201" text-anchor="middle" fill="#7f879e">application entry</text></g>
+<g><rect x="630" y="145" width="210" height="80" rx="16" fill="#111522" stroke="#00e5ff"/><text x="735" y="178" text-anchor="middle">game.js</text><text x="735" y="201" text-anchor="middle" fill="#7f879e">game loop</text></g>
+<g><rect x="910" y="145" width="210" height="80" rx="16" fill="#111522" stroke="#5df2a5"/><text x="1015" y="178" text-anchor="middle">state.js</text><text x="1015" y="201" text-anchor="middle" fill="#7f879e">single game state</text></g>
+<path d="M280 185h70M560 185h70M840 185h70" stroke="url(#g)" stroke-width="3" marker-end="url(#a)"/>
+<g><rect x="70" y="315" width="220" height="100" rx="16" fill="#111522" stroke="#ffcc66"/><text x="180" y="350" text-anchor="middle">Gameplay systems</text><text x="180" y="378" text-anchor="middle" fill="#7f879e">upgrades · pets</text><text x="180" y="399" text-anchor="middle" fill="#7f879e">missions · events</text></g>
+<g><rect x="350" y="315" width="220" height="100" rx="16" fill="#111522" stroke="#ffcc66"/><text x="460" y="350" text-anchor="middle">Progression</text><text x="460" y="378" text-anchor="middle" fill="#7f879e">achievements</text><text x="460" y="399" text-anchor="middle" fill="#7f879e">prestige · stats</text></g>
+<g><rect x="630" y="315" width="220" height="100" rx="16" fill="#111522" stroke="#00e5ff"/><text x="740" y="350" text-anchor="middle">Presentation</text><text x="740" y="378" text-anchor="middle" fill="#7f879e">ui.js</text><text x="740" y="399" text-anchor="middle" fill="#7f879e">CSS modules</text></g>
+<g><rect x="910" y="315" width="220" height="100" rx="16" fill="#111522" stroke="#5df2a5"/><text x="1020" y="350" text-anchor="middle">Persistence</text><text x="1020" y="378" text-anchor="middle" fill="#7f879e">storage.js</text><text x="1020" y="399" text-anchor="middle" fill="#7f879e">LocalStorage + offline</text></g>
+<g stroke="#59627b" stroke-width="2" fill="none"><path d="M735 225v60M735 285L180 315M735 285L460 315M735 285v30M735 285L1020 315"/></g>
+<g><rect x="280" y="500" width="640" height="70" rx="18" fill="#0d111c" stroke="url(#g)"/><text x="600" y="532" text-anchor="middle">Browser runtime</text><text x="600" y="555" text-anchor="middle" fill="#7f879e">DOM · timers · keyboard · LocalStorage</text></g>
+</g></svg>
