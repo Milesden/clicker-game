@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/stars/Milesden/clicker-game?style=for-the-badge&logo=github" alt="GitHub Stars">
   <img src="https://img.shields.io/github/forks/Milesden/clicker-game?style=for-the-badge&logo=github" alt="GitHub Forks">
-  <img src="https://img.shields.io/github/license/Milesden/clicker-game?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="License">
   <img src="https://img.shields.io/github/languages/top/Milesden/clicker-game?style=for-the-badge" alt="Top Language">
   <img src="https://img.shields.io/github/last-commit/Milesden/clicker-game?style=for-the-badge" alt="Last Commit">
 </p>
